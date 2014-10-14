@@ -1,3 +1,3 @@
-## Yo, I'm a Readme
+## Recreation of 4 Underscore Methods
 
-You should probably update me so people looking at your code have an idea what it is being used for :)
+This is a re-writing of four underscore methods without using jQuery for Assignment 10 at The Iron Yard.
