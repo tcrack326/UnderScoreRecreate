@@ -7,7 +7,59 @@ var testFunction = function(n) {
 //test object
 var testObject= {one: 1 , two: 2, three: 3, four: 4};
 
+//(function) (){});
 var tM = {
+
+  internationalGreeting: function(nation, name) {
+    var greeting;
+    switch (nation) {
+      case 'United States':
+        greeting = "Hi " + name + "!";
+        break;
+      case 'United Kingdom':
+        greeting = "Cheerio " + name + "!";
+        break;
+      case 'Italy':
+        greeting = "Ciao " + name + "!";
+        break;
+      case 'France':
+        greeting = "Bonjour " + name + "!";
+        break;
+      case 'Germany':
+        greeting = "Guten tag " + name + "!";
+        break;
+      case 'cowboy':
+        greeting = "Howdy " + name + "!";
+        break;
+      case 'Australia':
+        greeting = "G'day " + name + "!";
+        break;
+      case 'Spain':
+        greeting = "Hola " + name + "!";
+        break;
+      case 'Mexico':
+        greeting = "Hola " + name + "!";
+        break;
+      case 'Brazil':
+        greeting = "Oi " + name + "!";
+        break;
+      case 'Portugal':
+        greeting = "Oi " + name + "!";
+        break;
+      case 'Japan':
+        greeting = "Konnichiwa " + name + "!";
+        break;
+      case 'surfer':
+        greeting = "Sup bro!";
+        break;
+      case 'France':
+        greeting = "Bonjour " + name + "!";
+        break;
+      default:
+        greeting = "Hello " + name + "!";
+    }
+    return greeting;
+  },
 
   each: function( arrayOrObject, callBackFunction) {
 
