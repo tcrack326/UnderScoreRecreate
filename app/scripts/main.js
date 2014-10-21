@@ -1,13 +1,4 @@
-//a test array
-var testArray = [1, 2, 3, 4, 5, 10];
-//a test callback function
-var testFunction = function(n) {
-  return n*2;
-}
-//test object
-var testObject= {one: 1 , two: 2, three: 3, four: 4};
 
-//(function) (){});
 var tM = {
 
   internationalGreeting: function(nation, name) {
